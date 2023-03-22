@@ -1,0 +1,66 @@
+.navbar {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    // padding: 20px;
+    margin: 20px;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+.navbar-hor {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-right: 10px;
+    gap: 5px;
+    font-size: 20px;
+}
+
+
+.navbar_fijo {
+    position: fixed;
+    z-index: 1;
+    font-size: 30px;
+}
+
+.orange {
+    color: orange;
+}
+
+.titulo{
+    font-size: 40px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+.navbar-horizontal{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.navbar-inferior-izq{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-right: 10px;
+    padding-top: 30px;
+    gap: 25px;
+}
+.busqueda{
+    width: 20px;
+    height: 20px;
+}
+.negrita {
+    font-weight: bold;
+}
+.azul{
+    color: rgb(99, 192, 226);
+    font-weight: bold;
+}
+
+.grey {
+
+    color: rgb(173, 169, 169);
+
+}
